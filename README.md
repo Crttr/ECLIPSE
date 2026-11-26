@@ -1,90 +1,162 @@
-# ECLIPSE v1.0
+<div align="center">
 
-> SYSTEM ONLINE // WELCOME TO ECLIPSE
+<img src="assets/branding/banner.png" width="100%" alt="ECLIPSE">
 
-Custom desktop environment configuration for CachyOS.
+### A dark, immersive Linux desktop experience.
 
-## Design
+![CachyOS](https://img.shields.io/badge/CachyOS-Linux-FF4D8D?style=for-the-badge)
+![Hyprland](https://img.shields.io/badge/Hyprland-Wayland-A855F7?style=for-the-badge)
+![Noctalia](https://img.shields.io/badge/Noctalia-Shell-701F46?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0_Preview-292530?style=for-the-badge)
 
-- Dark pink and purple aesthetic
-- Hyprland Lua configuration
-- Noctalia Shell
-- Custom terminal appearance
-- Kvantum and Qt themes
-- GTK and Dolphin customization
+[Overview](#overview) • [Screenshots](#screenshots) • [Installation](#installation) • [Releases](https://github.com/Crttr/ECLIPSE/releases)
+
+</div>
+
+---
+
+## Overview
+
+**ECLIPSE** is a custom desktop configuration for CachyOS, built around Hyprland and Noctalia.
+
+A unified dark aesthetic combining deep blacks, neon pink and violet accents, custom animations and a personalized desktop experience.
+
+## Screenshots
+
+### Desktop
+
+![Desktop](assets/screenshots/desktop.png)
+
+### Terminal
+
+![Terminal](assets/screenshots/terminal.png)
+
+### File Manager
+
+![Dolphin](assets/screenshots/dolphin.png)
+
+### Noctalia Shell
+
+![Noctalia](assets/screenshots/noctalia.png)
+
+### Multitasking
+
+![Multitasking](assets/screenshots/multitasking.png)
+
+### Interactive Installer
+
+![Installer](assets/screenshots/installer.png)
+
+### Animated Login Screen
+
+![ECLIPSE Login](assets/screenshots/greetd.png)
+
+Custom greetd + Tuigreet login screen featuring:
+
+- Animated DOOM fire effect
+- ECLIPSE pink and purple color palette
+- SYSTEM ONLINE greeting
+- Real-time clock
+- Minimalistic authentication interface
+- UWSM session integration
+
+## Features
+
+- Customized Hyprland Lua configuration
+- Noctalia Shell integration
+- Unified dark pink and purple aesthetic
+- Custom animations and window decorations
+- Kitty, Fish and Starship configuration
+- Custom Fastfetch and Btop appearance
+- Kvantum, Qt and GTK integration
+- Customized Dolphin file manager
 - Custom cursors and wallpapers
 - Animated Tuigreet login screen
+- Interactive modular installer
+- Backup and restore utilities
+- Compatibility checker
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Crttr/ECLIPSE.git
+cd ECLIPSE
+bash install.sh
+```
+
+Alternatively, use the archive from the Releases page.
+
+Run the compatibility check before installation.
+
+## Installer
+
+```text
+[1] Install ECLIPSE
+[2] Install selected components
+[3] Create backup
+[4] Restore backup
+[5] Compatibility check
+[6] Install ECLIPSE Login
+[0] Exit
+```
+
+## Project Structure
+
+```text
+ECLIPSE/
+├── assets/
+│   ├── branding/
+│   ├── screenshots/
+│   └── wallpapers/
+├── dotfiles/
+├── packages/
+├── scripts/
+├── system/
+├── install.sh
+└── README.md
+```
 
 ## Requirements
 
 - CachyOS
 - Hyprland with Lua configuration support
-- Noctalia 5.6 or compatible version
+- Noctalia Shell
 - Bash
 - UWSM
 - Required applications and themes
 
-## Installation
-
-Extract the archive and open its directory.
-
-Run:
-
-    bash install.sh
-
-## Installer modules
-
-1. Install ECLIPSE
-2. Install selected components
-3. Create backup
-4. Restore backup
-5. Compatibility check
-6. Install ECLIPSE Login
-0. Exit
-
-Run the compatibility check before installation.
+Dependencies must be installed separately.
 
 ## Safety
 
-The installer creates user configuration backups before installation.
+- Do not run the main installer as root.
+- Back up your existing configuration before installation.
+- Restore merges saved files and does not remove newly created files.
+- The optional login module modifies /etc/greetd.
+- Hardware-specific settings may require manual adjustment.
 
-Restore merges saved configuration files and does not remove newly created files.
+## Release Status
 
-The login module modifies /etc/greetd and creates a separate system backup.
+ECLIPSE v1.0 Preview
 
-No automatic reboot or service restart is performed.
-
-Review monitor settings, wallpaper paths and application dependencies before logging out.
-
-Do not run the main installer as root.
-
-## Compatibility
-
-Reference system:
-- CachyOS
-- x86_64
-- Wayland
-- Hyprland
-- Noctalia 5.6.0
-- NVIDIA GTX 1660 Ti
-
-## Release status
-
-Version: 1.0
-Status: Preview
-
-Installer syntax and menu navigation tested.
-Clean-system installation and complete rollback not yet validated.
-
-Package installation is not automated.
-Hardware-specific settings may require manual adjustment.
+Installer syntax and menu navigation have been tested on the reference system. Clean-system installation and complete rollback have not yet been validated.
 
 ## Credits
 
-ECLIPSE configuration project by Crttr.
+Developed by **Crttr**.
 
 Third-party software, icons, cursors and artwork belong to their respective authors. Redistribution rights must be verified before public distribution.
 
 ---
 
-ECLIPSE // SYSTEM ONLINE
+<div align="center">
+
+### E C L I P S E
+
+**S Y S T E M  O N L I N E**
+
+Developed by Crttr
+
+</div>
