@@ -49,7 +49,7 @@ A unified dark aesthetic combining deep blacks, neon pink and violet accents, cu
 
 ### Animated Login Screen
 
-![ECLIPSE Login](assets/screenshots/greetd.png)
+![ECLIPSE Login](assets/screenshots/greetd.jpg)
 
 Custom greetd + Tuigreet login screen featuring:
 
