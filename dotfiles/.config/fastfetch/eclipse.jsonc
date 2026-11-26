@@ -1,0 +1,94 @@
+{
+  "logo": {
+    "type": "kitty-icat",
+    "source": "__ECLIPSE_HOME__/.config/fastfetch/assets/eclipse-final.png",
+    "width": 36,
+    "padding": {
+      "top": 2,
+      "left": 2,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": "  ",
+    "color": {
+      "output": "#E6DCE9"
+    }
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "{##E46BAB}╭─ HARDWARE ────────────────────{#}"
+    },
+    {
+      "type": "cpu",
+      "key": "│ CPU   ",
+      "keyColor": "#E46BAB",
+      "format": "Intel Core i5-10400F"
+    },
+    {
+      "type": "gpu",
+      "key": "│ GPU   ",
+      "keyColor": "#E46BAB",
+      "format": "GeForce GTX 1660 Ti"
+    },
+    {
+      "type": "memory",
+      "key": "│ RAM   ",
+      "keyColor": "#E46BAB",
+      "format": "{1} / {2}"
+    },
+    {
+      "type": "disk",
+      "key": "│ SSD   ",
+      "keyColor": "#E46BAB",
+      "folders": "/",
+      "format": "{1} / {2}"
+    },
+    {
+      "type": "custom",
+      "format": "{##E46BAB}╰───────────────────────────────{#}"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "{##B894EE}╭─ SYSTEM ──────────────────────{#}"
+    },
+    {
+      "type": "os",
+      "key": "│ OS    ",
+      "keyColor": "#B894EE",
+      "format": "CachyOS Linux"
+    },
+    {
+      "type": "wm",
+      "key": "│ WM    ",
+      "keyColor": "#B894EE",
+      "format": "Hyprland"
+    },
+    {
+      "type": "shell",
+      "key": "│ SHELL ",
+      "keyColor": "#B894EE"
+    },
+    {
+      "type": "terminal",
+      "key": "│ TERM  ",
+      "keyColor": "#B894EE"
+    },
+    {
+      "type": "custom",
+      "format": "{##B894EE}╰───────────────────────────────{#}"
+    },
+    {
+      "type": "uptime",
+      "key": "  UPTIME",
+      "keyColor": "#E46BAB"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "{##542047}●  {##853060}●  {##B14B89}●  {##E46BAB}●  {##F5A4D0}●  {##B894EE}●  {##D7B8FA}●  {##E6DCE9}●{#}"
+    }
+  ]
+}

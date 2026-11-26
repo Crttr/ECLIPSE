@@ -1,0 +1,91 @@
+{
+  "logo": {
+    "type": "kitty-icat",
+    "source": "__ECLIPSE_HOME__/.config/fastfetch/assets/eclipse.png",
+    "width": 40,
+    "padding": {
+      "top": 2,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": "  ",
+    "color": {
+      "keys": "38;2;247;140;200",
+      "output": "38;2;230;220;233"
+    }
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;247;140;200mE C L I P S E\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;247;140;200m╭─ HARDWARE ──────────────────\u001b[0m"
+    },
+    {
+      "type": "cpu",
+      "key": "│ CPU   ",
+      "format": "{1}"
+    },
+    {
+      "type": "gpu",
+      "key": "│ GPU   ",
+      "format": "{2}"
+    },
+    {
+      "type": "memory",
+      "key": "│ RAM   ",
+      "format": "{1} / {2}"
+    },
+    {
+      "type": "disk",
+      "key": "│ SSD   ",
+      "folders": "/",
+      "format": "{1} / {2}"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;247;140;200m╰─────────────────────────────\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;184;148;238m╭─ SYSTEM ────────────────────\u001b[0m"
+    },
+    {
+      "type": "os",
+      "key": "│ OS    ",
+      "keyColor": "38;2;184;148;238",
+      "format": "{2}"
+    },
+    {
+      "type": "wm",
+      "key": "│ WM    ",
+      "keyColor": "38;2;184;148;238"
+    },
+    {
+      "type": "shell",
+      "key": "│ SHELL ",
+      "keyColor": "38;2;184;148;238"
+    },
+    {
+      "type": "terminal",
+      "key": "│ TERM  ",
+      "keyColor": "38;2;184;148;238"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;184;148;238m╰─────────────────────────────\u001b[0m"
+    },
+    {
+      "type": "uptime",
+      "key": "  UPTIME"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;84;32;71m●  \u001b[38;2;133;48;96m●  \u001b[38;2;177;75;137m●  \u001b[38;2;228;107;171m●  \u001b[38;2;255;161;213m●  \u001b[38;2;184;148;238m●  \u001b[38;2;121;84;172m●  \u001b[38;2;230;220;233m●\u001b[0m"
+    }
+  ]
+}

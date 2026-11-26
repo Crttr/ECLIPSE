@@ -1,0 +1,37 @@
+# Personal backups
+/backups/
+
+# Local system information
+/system/services.txt
+/system/monitors.txt
+/system/kernel.txt
+/profiles/
+
+# Package archives
+*.pkg.tar.zst
+*.pkg.tar.zst.sig
+
+# Temporary files
+*.bak
+*.back
+*.save
+*.working
+*.log
+*.tmp
+
+# Sensitive files
+.env
+*.key
+*.pem
+*history*
+*token*
+*secret*
+*password*
+
+# Release archives
+*.tar.gz
+*.sha256
+
+# Python cache
+__pycache__/
+*.pyc

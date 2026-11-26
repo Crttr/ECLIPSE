@@ -1,0 +1,50 @@
+# ECLIPSE PROMPT
+
+add_newline = true
+palette = "eclipse"
+
+format = """
+[╭─](purple)$username$hostname$directory$git_branch$git_status$cmd_duration
+[╰─](purple)$character"""
+
+[palettes.eclipse]
+pink = "#FF79B0"
+purple = "#A78BFA"
+white = "#F4E5F4"
+gray = "#70647F"
+red = "#FF5577"
+green = "#A6E3A1"
+
+[username]
+show_always = true
+style_user = "bold pink"
+style_root = "bold red"
+format = "[$user]($style)"
+
+[hostname]
+ssh_only = false
+style = "purple"
+format = "[@$hostname]($style) "
+
+[directory]
+style = "bold white"
+format = "[$path]($style) "
+truncation_length = 4
+truncate_to_repo = false
+
+[character]
+success_symbol = "[❯](bold pink)"
+error_symbol = "[❯](bold red)"
+
+[git_branch]
+symbol = " "
+style = "purple"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+style = "pink"
+
+[cmd_duration]
+min_time = 2000
+style = "gray"
+format = "[󱎫 $duration]($style)"
